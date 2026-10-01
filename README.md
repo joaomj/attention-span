@@ -15,6 +15,10 @@
 
 <p align="center"><b>English</b> · <a href="README.es-ES.md">Español</a> · <a href="README.zh-CN.md">中文</a></p>
 
+<!-- fork-notice:start -->
+> **Fork with Pi support.** This fork adds the [Pi coding agent](https://pi.dev) package [`@joaomj/pi-attention-span`](https://www.npmjs.com/package/@joaomj/pi-attention-span). Install in Pi with `pi install npm:@joaomj/pi-attention-span`. See [PI.md](PI.md) for Pi usage and maintainer notes. Upstream project: [alexgreensh/attention-span](https://github.com/alexgreensh/attention-span).
+<!-- fork-notice:end -->
+
 A small collection of [output styles](https://code.claude.com/docs/en/output-styles) for Claude Code that change how it *talks to you*, not how it codes. Answer-first, plain English, easy to skim. Each one is a single markdown file you drop in and switch on.
 
 The concise-by-default rules are kind to your attention first. Trimming Claude's output is a welcome side effect, not the point.
