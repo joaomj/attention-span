@@ -1,0 +1,37 @@
+{
+  "name": "@joaomj/pi-attention-span",
+  "version": "0.8.0",
+  "description": "Attention Span output styles (Attention-kind, Spartan, Rundown) plus /tldr, packaged for the Pi coding agent.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "output-style",
+    "adhd",
+    "readability",
+    "tldr",
+    "skills"
+  ],
+  "homepage": "https://github.com/joaomj/attention-span",
+  "repository": "https://github.com/joaomj/attention-span",
+  "pi": {
+    "extensions": [
+      "./extensions/attention-span.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "files": [
+    "extensions",
+    "skills",
+    "PI.md",
+    "README.md",
+    "LICENSE",
+    "VERSION"
+  ]
+}
